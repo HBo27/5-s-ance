@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #FAEBD7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 10px 16px;
+    border-bottom: 1px dashed;
+}
+
+.logo {
+    margin-left: 35px;
+}
+
+nav {
+    width: 400px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#red {
+    color: red;
+    text-decoration: underline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+#background {
+    background-image: url(background.svg);
+    margin: 10px 50px;
+    border-radius: 5px;
+    height: 200px;
+    position: relative;
+}
+
+.barre {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px 10px;
+    align-items: center;
+    height: 50px;
+}
+
+#soustitre {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.barre button {
+    background-color: #740909;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 26px;
+    border: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.text {
+    width: 850px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.àpropos {
+    background-color: #8B8A82;
+    width: 445px;
+    height: 380px;
+    margin: 15px 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.àpropos h2 {
+    color: white;
+}
+
+.àpropos p {
+    color: white;
+    text-align: justify;
+}
+
+.icone {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main {
+    border-bottom: 1px dashed;
+    height: 700px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.galerie {
+    margin-left: 0px;
+}
+
+.photos {
+    border: 5px solid;
+    border-color: #6799E1;
+    width: 100px;
+}
